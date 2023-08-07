@@ -1,7 +1,7 @@
 variable "cidr_for_vpc" {
   description = "Cidr range for VPC"
   type        = string
-  # default     = "10.0.0.0/24"
+  default     = "10.0.0.0/24"
 }
 
 variable "tenancy" {
@@ -25,6 +25,7 @@ variable "dns_support_enabled" {
 variable "vpc_name" {
   description = "Name for the VPC"
   type        = string
+  default     = "Terraform-vpc1"
 }
 
 variable "web_server_name" {
@@ -35,7 +36,7 @@ variable "web_server_name" {
 variable "key_name" {
   type        = string
   description = "key pair name"
-  #default     = "deployer-key"
+  default     = "test"
 }
 
 # variable "mykey" {
@@ -61,3 +62,4 @@ variable "inbound_rules_web" {
       protocol    = "tcp"
   }]
 }
+

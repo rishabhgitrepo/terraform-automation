@@ -1,0 +1,48 @@
+---
+name: Ravi
+age: 26
+company: "CND Infotech"
+current_organization: true
+
+# map/dictionary in yaml (key-value pairs)
+
+
+address:
+    h.no: 108
+    street: kondhwa
+    city: pune
+    pin: 12345
+
+
+# list/array in yaml
+
+
+skills:
+    - terraform
+    - kubernetes
+    - devops
+    - aws
+    - linux
+    - softskill1: team player
+      softskill2: hardworking
+
+
+# Another way of writing list/arrays
+
+
+previous_employer: ["ABC", "XYZ"]
+
+
+# Another way of writing map/dict
+
+
+company_address: {plot_no: 1, street: kormangala, city: blr}
+
+
+# preserving comments with new line
+
+
+feedback_from_manager: |
+    Ravi is great asset to our company.
+    he has worked towards automating multiple tasks.
+    which eventually reduced cost of our project functioning.

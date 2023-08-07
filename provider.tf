@@ -8,7 +8,7 @@ terraform {
   backend "s3" {
     bucket         = "rishiterraformstatestore"
     key            = "terraform-state-file-june23-rish"
-    region         = "us-east-1"
+    region         = "ap-south-1"
     role_arn       = "arn:aws:iam::232247148826:role/stsassume-role"
     dynamodb_table = "terraformstatetable"
   }
