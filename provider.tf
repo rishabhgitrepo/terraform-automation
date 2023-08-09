@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "rishiterraformstatestore"
+    bucket         = "rishiterraformstatestore1"
     key            = "terraform-state-file-june23-rish"
     region         = "ap-south-1"
     role_arn       = "arn:aws:iam::232247148826:role/stsassume-role"
