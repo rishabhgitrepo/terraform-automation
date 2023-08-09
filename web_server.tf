@@ -1,5 +1,5 @@
 resource "aws_instance" "web" {
-  ami           = "ami-06286fa800b921d88"
+  ami           = "ami-042fa0f998915675f"
   instance_type = "t2.micro"
   key_name      = var.key_name
   subnet_id     = element([for each_subnet in aws_subnet.private_subnet : each_subnet.id], 0)
